@@ -1,0 +1,23 @@
+{
+	"name": "fpondepeyre/xml-to-array",
+	"description": "Convert xml to an array",
+	"keywords": [
+		"convert",
+		"array",
+		"xml"
+	],
+	"homepage": "https://github.com/fpondepeyre/xml-to-array",
+	"require": {
+		"php": ">=7.1.0",
+		"ext-dom": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"fpondepeyre\\XmlToArray\\": "src"
+		}
+	},
+	"minimum-stability": "stable",
+	"require-dev": {
+		"friendsofphp/php-cs-fixer": "^3.2"
+	}
+}
