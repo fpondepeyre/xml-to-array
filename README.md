@@ -1,7 +1,15 @@
-XML to PHP array convertor
+Convert xml to an array
 ==========================
 
-Smart tool to convert your XML to PHP array.
+This package provides a very simple class to convert xml string to an array.
+Copy of https://github.com/gaarf/XML-string-to-PHP-array with small change for work with spatie/array-to-xml package. (https://github.com/spatie/array-to-xml)
+
+```php
+use Spatie\ArrayToXml\ArrayToXml;
+use fpondepeyre\XmlToArray\XmlToArray;
+...
+ArrayToXml::convert(XmlToArray::convert($xml));
+```
 
 Install and simply use
 ----------------------
